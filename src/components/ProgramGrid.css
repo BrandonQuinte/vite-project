@@ -1,0 +1,23 @@
+/* --- ProgramGrid.css --- */
+.program-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  margin: 0 auto;
+  max-width: 700px;
+  justify-items: center;
+}
+
+.program-card {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 40px 0;
+  width: 180px;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+.program-card:hover {
+  background-color: #f2f2f2;
+  transform: scale(1.03);
+}
